@@ -11,14 +11,20 @@ txtdoc1.txt
 ADMIN@DESKTOP-JQ253FH UCRT64 ~/desktop/1DA25IS011/expt1 (main)
 $ git add txtdoc1.txt
 ADMIN@DESKTOP-JQ253FH UCRT64 ~/desktop/1DA25IS011/expt1 (main)
+
+ADMIN@DESKTOP-JQ253FH UCRT64 ~/desktop/1DA25IS011/expt1 (main)
+$ git commit -m "Modified to txtdoc1.txt"
+[main 0836f6e] Modified to txtdoc1.txt
+ 1 file changed, 24 insertions(+)
+
+ADMIN@DESKTOP-JQ253FH UCRT64 ~/desktop/1DA25IS011/expt1 (main)
 $ git push
-info: please complete authentication in your browser...
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (4/4), 318 bytes | 318.00 KiB/s, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 760 bytes | 760.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/Achsah-prof/PMGIT-Ax3.git
-   8073d24..4e3a140  main -> main
+   ba05e17..0836f6e  main -> main
 
