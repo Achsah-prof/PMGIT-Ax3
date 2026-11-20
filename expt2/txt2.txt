@@ -1,0 +1,31 @@
+ADMIN@DESKTOP-9VARQRB UCRT64 ~/Desktop/1DA25IS016/expt2 (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-9VARQRB UCRT64 ~/Desktop/1DA25IS016/expt2 (main)
+$ git checkout -b feature-branch
+Switched to a new branch 'feature-branch'
+
+ADMIN@DESKTOP-9VARQRB UCRT64 ~/Desktop/1DA25IS016/expt2 (feature-branch)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+ADMIN@DESKTOP-9VARQRB UCRT64 ~/Desktop/1DA25IS016/expt2 (feature-branch)
+$ git commit -m "Your commit message for feature-branch"
+On branch feature-branch
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-9VARQRB UCRT64 ~/Desktop/1DA25IS016/expt2 (feature-branch)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-9VARQRB UCRT64 ~/Desktop/1DA25IS016/expt2 (main)
+$ git merge feature-branch
+Already up to date.
+
+
+
